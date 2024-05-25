@@ -39,6 +39,9 @@ body
 }
 .sub-menu {
     display: none;
+    & a {
+        background-color: #fff;
+    }
 }
 header{    
     position:sticky;

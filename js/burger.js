@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.menu-list li').forEach(function(item) {
       item.addEventListener('click', function(e) {
           const subMenu = e.target.nextElementSibling;
+
+          // Fermer tous les autres sous-menus
+      document.querySelectorAll('.sub-menu').forEach(function(menu) {
+        if (menu !== subMenu) {
+          menu.style.display = 'none';
+        }
+      });
+          // Basculer l'affichage du sous-menu cliqué
           if (subMenu) {
               subMenu.style.display = subMenu.style.display === 'block' ? 'none' : 'block';
           }
