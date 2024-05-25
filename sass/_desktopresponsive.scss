@@ -29,18 +29,13 @@
         left: auto;
         padding-top: 0;
         transition: top 0.5s ease;
-        & ul{
+        > ul{
             display: flex;
         }
         & a{
             font-size: 1.2em;
         }
-    }
-    // 2024 en cours
-    // .sub-menu a {
-    //     display: none;
-    //     background-color: cyan;
-    // }
+    }    
     //fin 2024 en cours
     video{
         position: relative;
