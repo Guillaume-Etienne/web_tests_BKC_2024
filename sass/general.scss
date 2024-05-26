@@ -327,7 +327,7 @@ li img, .arrow{
     margin: 20px auto;
 }
 // ------------------------------- Page Activity ------------------------------
-#intro{
+#intro-acti{
     display: flex;
 }
 #backgroundimg1 {
@@ -351,7 +351,7 @@ li img, .arrow{
 }
 .vignette{
     border-radius: 50px;
-    box-shadow: $shadowbox;
+    box-shadow: $shadowbox-black;
     min-height: 350px;     // hum !   Pourrait poser problème ensuite (boutons sur le premier blanc)
     max-width: 450px;  
 }
@@ -373,15 +373,9 @@ button {
     border: 1px solid transparent;
     background-color: $colorbackground2;
 }
-h1{
-    padding-top: 100px;
-    margin-top: 0;
-    color: $colorsecondary;
-    font-size: 2em;
-}
 #secflex{
     background-color: $colorbackground4;
-    margin:-180px 0 20px 0;
+    margin: 0 0 20px 0;
     display: flex;
     // flex-direction: column;
     flex-wrap: wrap;
