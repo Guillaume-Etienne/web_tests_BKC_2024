@@ -458,6 +458,9 @@ button {
 
 .additional-text {
     display: none;
+    & p {
+        text-align: start;
+    }
 }
 
 /* Style des boutons */
